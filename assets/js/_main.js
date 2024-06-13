@@ -61,7 +61,7 @@ $(document).ready(function () {
   }
 
   // Auto scroll sticky ToC with content
-  const scrollTocToContent = function (event) {
+  document.addEventListener("gumshoeActivate", function (event) {
     var target = event.target;
     var scrollOptions = { behavior: "auto", block: "nearest", inline: "start" };
 
@@ -75,12 +75,7 @@ $(document).ready(function () {
     } else {
       target.scrollIntoView(scrollOptions);
     }
-  };
-
-  // Has issues on Firefox, whitelist Chrome for now
-  if (!!window.chrome) {
-    document.addEventListener("gumshoeActivate", scrollTocToContent);
-  }
+  });
 
   // add lightbox class to all image links
   $(

@@ -11,6 +11,7 @@
 ### Bug Fixes
 
 - Disable copy button on invalid syntax highlighting blocks to avoid positioning issues.
+- Fix copy button going out of range for invalid syntax highlighting blocks.
 
 ### Enhancements
 

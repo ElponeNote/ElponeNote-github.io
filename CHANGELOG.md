@@ -11,7 +11,6 @@
 ### Bug Fixes
 
 - Disable copy button on invalid syntax highlighting blocks to avoid positioning issues.
-- Fix typo for `fa-dribble` in `_utilities.scss`.
 
 ### Enhancements
 

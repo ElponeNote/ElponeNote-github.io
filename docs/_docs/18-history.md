@@ -18,6 +18,7 @@ last_modified_at: '2024-05-05T19:50:49+08:00'
 last_modified_at: '2024-05-05T19:44:24+08:00'
 last_modified_at: '2024-05-05T18:22:58+08:00'
 last_modified_at: '2024-05-05T18:13:22+08:00'
+last_modified_at: '2024-05-05T17:36:29+08:00'
 toc: false
 ---
 
@@ -50,7 +51,6 @@ toc: false
 
 - Fix an unclosed `<p>` tag in `page__hero.html`, near `page.header.actions`.
 - Remove overlay and revert X to hamburger icon when popup disappears. [#3958](https://github.com/mmistakes/minimal-mistakes/pull/3958)
-- Fix SEO title when it contains a vertical bar. [#3094](https://github.com/mmistakes/minimal-mistakes/pull/3094) [#3113](https://github.com/mmistakes/minimal-mistakes/pull/3113)
 
 ### Enhancements
 
@@ -63,7 +63,6 @@ toc: false
 - Add popup parameter to `{% include figure %}` to enable Magnific Popup. [#3119](https://github.com/mmistakes/minimal-mistakes/pull/3119)
 - Add target attribute for navigation link. [#3056](https://github.com/mmistakes/minimal-mistakes/pull/3056)
 - Split schema to a separate include file. [#3085](https://github.com/mmistakes/minimal-mistakes/pull/3085)
-- Cleanup `_includes/seo.html`.
 
 ### Documentation & Maintenance
 

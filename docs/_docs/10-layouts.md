@@ -747,7 +747,7 @@ defaults:
         nav: "docs"
 ```
 
-*New in v4.26.0*: If you have multiple sidebar navs defined and want to include more than one on a page, the sidebar nav can also be a list.
+If you have multiple sidebar navs defined and want to include more than one on a page, the sidebar nav can also be a list.
 
 ```yaml
 sidebar:
